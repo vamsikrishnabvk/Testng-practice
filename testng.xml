@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="firstsuite" >
+<test name="testngpractice">
+<classes>
+<class name="testngpractice.Annotions">
+<methods>
+<include name="testcase1"/>
+<include name="testcase2"/>
+</methods>
+</class>
+<class name="testngpractice.Suitetest">
+<methods>
+<include name="testcase3"/>
+<include name="testcase4"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
